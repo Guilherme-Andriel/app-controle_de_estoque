@@ -4,7 +4,7 @@
   --background: #e1e7f4;
   --background-dark: #11101d;
 
-  --title: #1E1E1E;
+  --title: #0b0b0b;
   --subtitle:#;
   --text-body:#:
 
@@ -18,5 +18,6 @@ body {
   min-height: 100vh;
   background: var(--background);
   font-family:'Poppins', Helvetica, sans-serif;
+  color: var(--title);
 }
 

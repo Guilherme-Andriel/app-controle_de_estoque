@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Poppins } from "next/font/google";
+import { Poppins} from "next/font/google";
 import "../styles/globals.css";
 
 const poppins = Poppins({
@@ -10,10 +10,9 @@ const poppins = Poppins({
 
 
 
-
 export const metadata: Metadata = {
   title: "Controle de Estoque",
-  description: "Sistema eficiente de controle de estoque para entradas e saídas de produtos. Gerencie categorias, quantidades e valores em tempo real com uma interface intuitiva e organizada.",
+  description: "Sistema eficiente de controle de estoque para entradas e saídas de produtos. Gerencie categorias, quantidades e valores em tempo real com uma face intuitiva e organizada.",
   icons: {
     icon: "/icon.svg",
   },

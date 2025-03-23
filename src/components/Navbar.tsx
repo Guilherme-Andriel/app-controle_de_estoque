@@ -16,12 +16,12 @@ export default function Navbar() {
   const pathname = usePathname();
 
   return (
-  <div className="flex sm:hidden justify-between w-screen bg-[#f4f4f4]">
-    <div className="flex flex-row items-center gap-2 p-6">
+  <div className="sticky top-0 left-0 flex sm:hidden justify-between items-center w-screen bg-[#f4f4f4] shadow-lg">
+    <header className="flex flex-row items-center gap-2 p-6">
         <Image src="/icon.svg" alt="Logo" priority width={30} height={30} />
         <p className="text-3xl font-bold text-[#71C2D0]">CePCLIN</p>
-    </div>
-    <nav className="w-screen bg-[#f4f4f4] flex-row absolute bottom-0 transition-all rounded-t-2xl ">
+    </header>
+    <nav className="fixed bottom-0 left-0  w-screen bg-[#f4f4f4] flex-row transition-all rounded-t-3xl shadow-lg">
       <ul className="flex justify-around mt-5 space-y-4">
         {menuItems.map((item) => {
            const isActive = pathname === item.href; 
@@ -40,7 +40,7 @@ export default function Navbar() {
 
    </nav>
 
-   <button className="flex items-center justify-center gap-4 p-6 rounded-lg text-blue-600 hover:bg-blue-200">
+   <button className="flex items-center justify-center p-5 rounded-lg text-white hover:bg-blue-400 bg-blue-300 h-4 m-4">
         <Printer />
     </button>
     
