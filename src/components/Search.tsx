@@ -1,6 +1,6 @@
 import React from "react";
 import Table from "./Table";
-import InputSearch from "@/components/InputSearch";
+
 
 
 interface SearchProps {
@@ -18,8 +18,7 @@ const Search = (props: SearchProps) => {
   return (
     
     <div>
-       <div className="absolute right-[520px] top-0 w-auto h-[200px] flex justify-center items-center">
-       </div>
+      
       <Table dados={dados} />
     </div>  
    

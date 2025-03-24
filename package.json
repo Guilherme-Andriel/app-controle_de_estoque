@@ -1,4 +1,4 @@
-{
+{ "homepage": "https://Guilherme-Andriel.github.io/app-controle_de_estoque",
   "name": "app-controle_de_estoque",
   "version": "0.1.0",
   "private": true,
@@ -6,7 +6,9 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "@types/react-router-dom": "^5.3.3",
@@ -26,6 +28,7 @@
     "@types/react-dom": "^19",
     "eslint": "^9",
     "eslint-config-next": "15.2.3",
+    "gh-pages": "^6.3.0",
     "tailwindcss": "^4",
     "typescript": "^5"
   }
