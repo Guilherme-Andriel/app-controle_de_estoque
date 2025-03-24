@@ -16,7 +16,7 @@ export default function Navbar() {
   const pathname = usePathname();
 
   return (
-  <div className="sticky top-0 left-0 flex sm:hidden justify-between items-center w-screen bg-[#f4f4f4] shadow-lg">
+  <div className="sticky top-0 left-0 flex md:hidden justify-between items-center w-screen bg-[#f4f4f4] shadow-lg">
     <header className="flex flex-row items-center gap-2 p-6">
         <Image src="/icon.svg" alt="Logo" priority width={30} height={30} />
         <p className="text-3xl font-bold text-[#71C2D0]">CePCLIN</p>

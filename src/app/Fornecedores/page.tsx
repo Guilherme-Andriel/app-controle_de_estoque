@@ -4,12 +4,15 @@ import Navbar from "@/components/Navbar";
 const Fornecedores = () => {
 
     return(
-        <div className="flex">
+        <div className="flex justify-evenly w-full">
             <Sidebar/>
-             <Navbar/>
-           <div>
-             <p>Fornecedores</p>
-           </div>
+            <main className="flex flex-1 flex-col">
+                <Navbar/>
+                <div>
+                    <p>Fornecedores</p>
+                </div>
+            </main>
+            
         </div>
     )
 };

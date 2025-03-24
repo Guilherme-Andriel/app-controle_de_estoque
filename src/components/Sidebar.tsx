@@ -23,7 +23,7 @@ export default function Sidebar() {
     <motion.aside
       animate={{ width: open ? 250 : 100 }}
       
-      className="sticky left-0 top-0 hidden sm:flex h-screen bg-[#f4f4f4] p-4 flex-col transition-all rounded-r-2xl shadow-lg"
+      className="sticky left-0 top-0 hidden md:flex h-screen bg-[#f4f4f4] p-4 flex-col transition-all rounded-r-2xl shadow-lg"
     >
 
       <div className="p-3 relative mb-3">
