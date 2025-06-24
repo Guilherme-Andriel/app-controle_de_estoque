@@ -6,11 +6,7 @@ interface ButtonProps {
 }
 
 function Button({ texto, className }: ButtonProps) {
-  return (
-    <button className={`p-2 rounded-lg ${className}`}>
-      {texto}
-    </button>
-  );
+  return <button className={` ${className}`}>{texto}</button>;
 }
 
 export default Button;
